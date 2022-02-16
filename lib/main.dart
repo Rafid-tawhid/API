@@ -1,5 +1,6 @@
-import 'package:api_practice_flutter/home_screen.dart';
-import 'package:api_practice_flutter/second_page.dart';
+import 'package:api_practice_flutter/pages/example_three.dart';
+import 'package:api_practice_flutter/pages/home_screen.dart';
+import 'package:api_practice_flutter/pages/second_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: PhotosApi()
+      home: UserComplexApi()
     );
   }
 }
