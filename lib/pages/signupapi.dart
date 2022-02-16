@@ -75,7 +75,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
           'password' :pass,
         }
       );
-      if(response.statusCode==200){
+
+       if(response.statusCode==200){
         var data=jsonDecode(response.body.toString());
         print(data);
         print('Login Succesful');
